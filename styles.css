@@ -1,0 +1,72 @@
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/GlacialIndifference-Regular.otf'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/GlacialIndifference-Regular.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/GlacialIndifference-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/GlacialIndifference-Regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/GlacialIndifference-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fredoka-one-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/fredoka-one-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/fredoka-one-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/fredoka-one-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/fredoka-one-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/fredoka-one-v8-latin-regular.svg#FredokaOne') format('svg'); /* Legacy iOS */
+}
+body {
+   background: url(./images/glace.png) right repeat-y #917ac6;
+}
+img{
+  max-width: 43%;
+}
+div{
+	text-align: center
+}
+h1
+{
+    font-family: 'Fredoka One', Arial, serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #c6EE6F;
+    text-align: center
+}
+h2
+{
+    font-family: 'Fredoka One', Arial, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #c6EE6F;
+    text-indent: 150px;
+}
+h3
+{
+    font-family: 'Fredoka One', Arial, serif;
+    font-size: 25px;
+    color: #ffcc53;
+    text-indent: 150px;
+}
+p
+{
+    font-family: 'Glacial Indifference', Arial, serif;
+    font-size: 25px;
+    color: white;
+    text-indent: 150px;
+    line-height: 20px
+}
+input
+{
+    font-family: 'Fredoka One', Arial, serif;
+    font-size: 15px;
+}
+@media only screen and (max-device-width:640px), only screen and (max-width:640px) {
+  body  {width: auto}
+}
